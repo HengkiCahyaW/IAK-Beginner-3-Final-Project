@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.hengkicahyawijaya.iak_final.anime_view.spring_2017.SakuraQuestActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="@dimen/text_8">
+
+        <TextView
+            android:id="@+id/text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Sakura Quest"
+            android:textSize="20dp"
+            android:padding="5dp"/>
+
+        <android.support.v7.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/text_8">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:padding="5dp">
+
+                <ImageView
+                    android:id="@+id/image"
+                    android:layout_width="130dp"
+                    android:layout_height="200dp"
+                    android:layout_marginRight="@dimen/text_8"
+                    app:srcCompat="@drawable/sakura" />
+
+                <RelativeLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center">
+
+                    <TextView
+                        android:layout_marginTop="@dimen/text_8"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:text="Japanese: サクラクエスト\nStudio: P.A. Works\nTipe: TV Series\nStatus: Sedang Tayang\nGenre: Comedy\nDurasi: 23 menit\nEpisode: 25\nTayang: Apr 6, 2017 - Sep 21, 2017\nSiaran : Kamis 00:00 (JST)\nPremiered: Spring 2017\nSource: Original\nRating: PG-13 - Teens 13 or older"
+                        android:textSize="12dp"/>
+                </RelativeLayout>
+            </LinearLayout>
+        </android.support.v7.widget.CardView>
+
+        <TextView
+            android:layout_below="@+id/sakura"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/text_8"
+            android:text="Sinopsis\nDi sebuah desa kecil di pinggiran daerah, desa tersebut mendapatkan panggilan “negara kecil” untuk program turis dan wisata. Memperkejakan lima wanita sebagai duta wisata. Menceritakan tentang satu tahun penuh cerita tentang bagaimana lima orang gadis itu bekerja dan hidup sebagai agensi wisata dari desa kecil tersebut untuk menghidupkan kembali nama dari desa tersebut."
+            android:textSize="15dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginLeft="@dimen/text_8"
+            android:text=""
+            android:textSize="15dp"/>
+    </LinearLayout>
+</ScrollView>

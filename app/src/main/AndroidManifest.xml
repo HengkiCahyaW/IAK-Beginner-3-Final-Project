@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.hengkicahyawijaya.iak_final">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/splash"
+        android:label="Wiibu"
+        android:roundIcon="@drawable/splash"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".MainActivity" />
+        <activity
+            android:name=".splashScreen.SplashActivity"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".AboutActivity"
+            android:label="About"
+            android:parentActivityName=".MainActivity">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".MainActivity" />
+        </activity>
+        <activity
+            android:name=".anime_view.AnimeActivity"
+            android:label="Anime" />
+        <activity
+            android:name=".event_view.EventActivity"
+            android:label="Event" />
+        <activity
+            android:name=".shop_view.ShopActivity"
+            android:label="Shop" />
+        <activity
+            android:name=".anime_view.spring_2017.SakuraQuestActivity"
+            android:label="Sakura Quest" />
+        <activity
+            android:name=".shop_view.OrderActivity"
+            android:label="Order" />
+        <activity android:name=".anime_view.winter_2017.MasamuneActivity" />
+        <activity android:name=".anime_view.spring_2017.EromangaActivity" />
+        <activity android:name=".anime_view.winter_2017.GabrielActivity" />
+        <activity android:name=".shop_view.detail.Baju1Activity" />
+        <activity android:name=".shop_view.detail.Baju2Activity"></activity>
+    </application>
+
+</manifest>

@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.hengkicahyawijaya.iak_final.anime_view.winter_2017.SakuraQuestActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="@dimen/text_8">
+
+        <TextView
+            android:id="@+id/text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Eromanga Sensei"
+            android:textSize="20dp"
+            android:padding="5dp"/>
+
+        <android.support.v7.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/text_8">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:padding="5dp">
+
+                <ImageView
+                    android:id="@+id/image"
+                    android:layout_width="130dp"
+                    android:layout_height="200dp"
+                    android:layout_marginRight="@dimen/text_8"
+                    app:srcCompat="@drawable/eromanga" />
+
+                <RelativeLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center">
+
+                    <TextView
+                        android:layout_marginTop="@dimen/text_8"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:text="Japanese: エロマンガ先生\nStudio: A-1 Pictures\nTipe: TV Series\nStatus: Sedamg Tayang\nGenre: Comedy, Drama, Romance\nDurasi: 23 menit\nEpisode: Belum Diketahui\nTayang: Apr 9, 2017 - ?\nSiaran : Minggu 00:30 (JST)\nPremiered: Spring 2017\nSource: Light Novel\nRating: PG-13 - Teens 13 or older"
+                        android:textSize="12dp"/>
+                </RelativeLayout>
+            </LinearLayout>
+        </android.support.v7.widget.CardView>
+
+        <TextView
+            android:layout_below="@+id/sakura"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/text_8"
+            android:text="Sinopsis\nMasamune Izumi, adalah pengarang novel ringan di SMA. Adik Masamune, Sagiri, adalah seseorang yang menutup diri dan tak mau pergi ke luar kamarnya selama setahun. Dia sering memaksa kakaknya untuk mengantarkan makanan dengan cara menghentakkan kakinya ke lantai. Masamune ingin membuat adiknya keluar dari kamarnya karena hanya dia keluarganya satu-satunya. Gambar dari novel milik Masamune digambar oleh seseorang yang disebut “Eromanga.” Gambarnya memang terkesan sangat mesum tapi ia bisa diandalkan. Masamune tak pernah bertemu dengannya, tapi sebenarnya, “Eromanga-sensei” itu ternyata adiknya sendiri."
+            android:textSize="15dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginLeft="@dimen/text_8"
+            android:text=""
+            android:textSize="15dp"/>
+    </LinearLayout>
+</ScrollView>

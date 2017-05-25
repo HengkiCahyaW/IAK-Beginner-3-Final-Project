@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.hengkicahyawijaya.iak_final.anime_view.winter_2017.SakuraQuestActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="@dimen/text_8">
+
+        <TextView
+            android:id="@+id/text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Masamune-kun no Revenge"
+            android:textSize="20dp"
+            android:padding="5dp"/>
+
+        <android.support.v7.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/text_8">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:padding="5dp">
+
+                <ImageView
+                    android:id="@+id/image"
+                    android:layout_width="130dp"
+                    android:layout_height="200dp"
+                    android:layout_marginRight="@dimen/text_8"
+                    app:srcCompat="@drawable/masamune" />
+
+                <RelativeLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center">
+
+                    <TextView
+                        android:layout_marginTop="@dimen/text_8"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:text="Japanese: 政宗くんのリベンジ\nStudio: Silver Link.\nTipe: TV Series\nStatus: Tamat\nGenre: Harem, Comedy, Romance, School, Shounen.\nDurasi: 24 menit\nEpisode: 12\nTayang: Jan 5, 2017 - Mar 23, 2017\nSiaran : Kamis 22:30 (JST)\nPremiered: Winter 2017\nSource: Manga\nRating: PG-13 - Teens 13 or older"
+                        android:textSize="12dp"/>
+                </RelativeLayout>
+            </LinearLayout>
+        </android.support.v7.widget.CardView>
+
+        <TextView
+            android:layout_below="@+id/sakura"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/text_8"
+            android:text="Sinopsis\nSemasa kecil, Makabe Masamune pernah mendapat penghinaan dari seorang gadis cantik dan kaya raya bernama Adagaki Aki yang sering memanggilnya dengan sebutan “Gendut” karena tubuhnya yang gemuk kala itu. Berniat untuk membalas dendam, Masamune mengubah dirinya menjadi siswa SMU yang tampan meskipun sedikit narsis. Saat kembali dipertemukan dengan Aki, dia bersiap untuk melancarkan serangan balas dendamnya. Dibantu pelayan si gadis kaya, Koiwai Yoshino, Masamune mulai menjalin hubungan dengan Aki, dan berniat mematahkan hatinya di saat yang tepat.Akan tetapi, hubungan persahabatannya dengan Aki mulai tumbuh dan Masamune mulai bertanya-tanya soal rencana jahatnya dan benarkah jika pembalasan dendam yang dia inginkan?."
+            android:textSize="15dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginLeft="@dimen/text_8"
+            android:text=""
+            android:textSize="15dp"/>
+    </LinearLayout>
+</ScrollView>
